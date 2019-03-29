@@ -20,6 +20,7 @@
     "@bbc/gel-foundations": "^0.3.0",
     "@bbc/psammead-styles": "^0.3.2",
     "@bbc/psammead-visually-hidden-text": "^0.1.10",
+    "@loadable/component": "^5.7.0",
     "react": "^16.6.3",
     "styled-components": "^4.1.2"
   },

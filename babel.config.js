@@ -2,12 +2,13 @@ const presets = ['@babel/preset-env', '@babel/preset-react'];
 
 module.exports = {
   plugins: [
+    '@babel/plugin-syntax-dynamic-import',
     [
       'babel-plugin-styled-components',
       {
         ssr: true,
         fileName: false,
-      },
+      }
     ],
   ],
   presets,
